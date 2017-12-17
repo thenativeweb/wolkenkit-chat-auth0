@@ -1,7 +1,7 @@
 {
-  "name": "wolkenkit-chat",
+  "name": "wolkenkit-chat-auth0",
   "version": "1.0.0",
-  "description": "wolkenkit-chat is a chat using wolkenkit and Auth0.",
+  "description": "wolkenkit-chat-auth0 is a chat using wolkenkit and Auth0.",
   "wolkenkit": {
     "application": "chat",
     "runtime": {
