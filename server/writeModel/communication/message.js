@@ -4,6 +4,7 @@ const initialState = {
   author: '',
   text: '',
   likes: 0,
+  
   isAuthorized: {
     commands: {
       send: { forAuthenticated: true },
