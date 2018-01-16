@@ -23,7 +23,7 @@
           "allowAccessFrom": "*"
         },
         "identityProvider": {
-          "name": "https://thenativeweb.eu.auth0.com/",
+          "name": "https://<myaccount>.auth0.com/",
           "certificate": "/server/keys/auth0"
         },
         "node": {

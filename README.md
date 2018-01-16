@@ -12,38 +12,9 @@ For more details on wolkenkit see the [wolkenkit documentation](https://docs.wol
 
 ## Quick start
 
-To run a wolkenkit application, you first need to install wolkenkit. For this, see the installation guide for [macOS](https://docs.wolkenkit.io/latest/getting-started/installing-wolkenkit/installing-on-macos/), [Linux](https://docs.wolkenkit.io/latest/getting-started/installing-wolkenkit/installing-on-linux/), [Windows](https://docs.wolkenkit.io/latest/getting-started/installing-wolkenkit/installing-on-windows/), or [Docker Machine](https://docs.wolkenkit.io/latest/getting-started/installing-wolkenkit/installing-using-docker-machine/).
+This repository contains the sample application for the blog post [Building Real-Time Web Applications using wolkenkit](https://auth0.com/blog/building-real-time-web-applications-using-wolkenkit). For details on how to run the application, please refer to that blog post.
 
-This only needs to be done once.
-
-### Running the server
-
-First you need to start the backend. Change to the directory where you have installed the application to, and run the following command:
-
-```shell
-$ wolkenkit start
-```
-
-*Please note that the first start will take a few minutes, as the wolkenkit CLI needs to download a bunch of Docker containers in the background. All subsequent starts will be way faster.*
-
-### Running the client
-
-Once you get the message that the wolkenkit application is running, run the client using the following command:
-
-```shell
-$ npx http-server ./client
-```
-
-Then, open your browser and point it to http://localhost:8080/. This takes you to the application, and then immediately forwards you to the Auth0 login and signup page.
-
-Once you have signed up and logged in, you can use the chat. To simulate multiple users, open another session in an incognito window and login in using a second user.
-
-### Stopping the application
-
-To stop the application you need to proceed as follows:
-
-- To stop the client, simply hit `<Ctrl>+<C>`.
-- To stop the server, run `wolkenkit stop`.
+*Please note that the sample code does not run as-is. You need to [sign up for a free Auth0 account](https://auth0.com/signup) and add the certificate, the client ID and the domain of your account as described in the blog post.*
 
 ## License
 
