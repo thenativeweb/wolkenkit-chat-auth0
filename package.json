@@ -2,6 +2,12 @@
   "name": "wolkenkit-chat-auth0",
   "version": "1.0.0",
   "description": "wolkenkit-chat-auth0 is a chat using wolkenkit and Auth0.",
+  "contributors": [
+    {
+      "name": "Golo Roden",
+      "email": "golo.roden@thenativeweb.io"
+    }
+  ],
   "wolkenkit": {
     "application": "chat",
     "runtime": {
@@ -12,7 +18,7 @@
         "api": {
           "address": {
             "host": "local.wolkenkit.io",
-            "port": 4000
+            "port": 3000
           },
           "allowAccessFrom": "*"
         },
@@ -25,5 +31,13 @@
         }
       }
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thenativeweb/wolkenkit-chat-auth0.git"
+  },
+  "keywords": [
+    "wolkenkit"
+  ],
+  "license": "AGPL-3.0"
 }

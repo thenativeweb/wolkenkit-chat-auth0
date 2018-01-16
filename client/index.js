@@ -3,7 +3,7 @@
 
   wolkenkit.connect({
     host: 'local.wolkenkit.io',
-    port: 4000,
+    port: 3000,
     authentication: new wolkenkit.authentication.OpenIdConnect({
       identityProviderUrl: 'https://thenativeweb.eu.auth0.com/authorize',
       clientId: 'C649J21SuXRm3VZnyhVrWSpHsUwYBGGP',
