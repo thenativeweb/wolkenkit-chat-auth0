@@ -14,9 +14,9 @@ For more details on wolkenkit see the [wolkenkit documentation](https://docs.wol
 
 This repository contains the sample application that is developed in the Auth0 blog post [Building Real-Time Web Applications using wolkenkit](https://auth0.com/blog/building-real-time-web-applications-using-wolkenkit).
 
-For details on how to setup and run the application, please refer to that blog post. You need to [sign up for a free Auth0 account](https://auth0.com/signup) and add the certificate, the client ID and the domain of your account as described in the blog post.
+For details on how to setup and run the sample application, please refer to that blog post. You need to [sign up for a free Auth0 account](https://auth0.com/signup) and add the certificate, the client ID and the domain of your account as described in the blog post.
 
-Please note that since these data are not part of this repository, the sample code does not run out of the box.
+Please note that since these data are not part of this repository, the sample application does not run out of the box.
 
 ## License
 
